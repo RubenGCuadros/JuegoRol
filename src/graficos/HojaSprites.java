@@ -1,4 +1,4 @@
-package com.ciim.juegorol.graficos;
+package graficos;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;

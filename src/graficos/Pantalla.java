@@ -1,4 +1,4 @@
-package com.ciim.juegorol.graficos;
+package graficos;
 
 public final class Pantalla {
 
@@ -41,7 +41,7 @@ public final class Pantalla {
 				}
 				// codigo para redibujar la pantalla
 				// esto es temporal para dibujar el sprite en pantalla
-				pixeles[posicionX + posicionY * ancho] = Sprite.asfalto.pixeles[(x & MASCARA_SPRITE) + (y & MASCARA_SPRITE) * LADO_SPRITE];
+				pixeles[posicionX + posicionY * ancho] = Sprite.ASFALTO.pixeles[(x & MASCARA_SPRITE) + (y & MASCARA_SPRITE) * LADO_SPRITE];
 
 			}
 		}

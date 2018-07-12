@@ -1,4 +1,4 @@
-package com.ciim.juegorol.graficos;
+package graficos;
 
 public final class Sprite {
 	private final int lado;
@@ -11,7 +11,7 @@ public final class Sprite {
 
 	// Coleccion de sprites
 
-	public static Sprite asfalto = new Sprite(32, 0, 0, HojaSprites.desierto);
+	public static final Sprite ASFALTO = new Sprite(32, 0, 0, HojaSprites.desierto);
 
 	// Fin de la coleccion
 
